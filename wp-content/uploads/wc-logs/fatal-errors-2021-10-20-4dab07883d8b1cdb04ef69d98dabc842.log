@@ -1,0 +1,11 @@
+2021-10-20T15:21:21+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_screen_ids() in /home/anuncio360.com/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-notices.php:201
+Stack trace:
+#0 /home/anuncio360.com/public/wp-includes/class-wp-hook.php(303): WC_Admin_Notices::add_notices('')
+#1 /home/anuncio360.com/public/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 /home/anuncio360.com/public/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/anuncio360.com/public/wp-admin/admin-header.php(116): do_action('admin_print_sty...')
+#4 /home/anuncio360.com/public/wp-admin/admin.php(239): require_once('/home/anuncio36...')
+#5 /home/anuncio360.com/public/wp-admin/themes.php(10): require_once('/home/anuncio36...')
+#6 {main}
+  thrown, em /home/anuncio360.com/public/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-notices.php, na linha 201
+
